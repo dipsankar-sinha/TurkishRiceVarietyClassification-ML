@@ -9,6 +9,8 @@ This project focuses on classifying two rice varieties, Cammeo and Osmancik, bas
   - Ilkay Cinar, Graduate School of Natural and Applied Sciences, Selcuk University, Konya, Turkey. (ilkay_cinar@hotmail.com)
   - Murat Koklu, Faculty of Technology, Selcuk University, Konya, Turkey. (mkoklu@selcuk.edu.tr)
 - **Link to Dataset**: [Rice Dataset](https://www.muratkoklu.com/datasets/)
+- **Link to Used Dataset Available on UCI Repository**: [Open_in_UCI_Repository](https://archive.ics.uci.edu/dataset/545/rice+cammeo+and+osmancik)
+- **Link to Colab Notebook**: [Open_in_Colab](https://colab.research.google.com/drive/1sxRF6JruDAswLK4i4JQURIIa87Meon-p?usp=sharing)
 
 ### Features
 The dataset includes the following features:
@@ -23,7 +25,7 @@ The dataset includes the following features:
 
 ## Data Preprocessing
 ### Normalization
-- Z-score normalization was applied to the continuous features to standardize the data.
+- Z-score normalization was applied to the features to standardize the data.
 
 ### Outlier Detection and Removal
 - Extreme outliers were identified and removed using the Z-score method with a threshold of 3.
